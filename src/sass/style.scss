@@ -1,67 +1,154 @@
 @use "reset";
-@font-face{
-    font-family: "Doom-text";
-    src: url("/font/Doom.ttf");
 
+body{
+    background-color: #fff;
 }
 
-$base-size: 2rem;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    text-align: center;
 
-body {
-    max-width: min(120ch, 100vw - 1rem);
-    margin-inline: auto;
-    background: black;
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: auto;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 40px;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    align-items: center;
+    
+  }
+
+  h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Nothing You Could Do', cursive;
+    padding-top: 3%;
+    background: -webkit-linear-gradient(8.5deg, #9D8DF1 , #9D8DF1  ,  #1CFEBA , #1CFEBA );
+     -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  h2{
+    font-family: 'Oswald', sans-serif;
+  }
+
+hr{
+  width: 15%;
 }
 
-nav {
-    font-family: "Doom-text";
-    display: flex;
-    gap: $base-size;
-    list-style: none;
-    width: 100%;
-    margin: 0 auto;
-    padding: 5px 0;
-    color: black;
-    box-shadow: 10px 12px 10px #2c4740;
-    background-color: #F8CE56;
-    margin-bottom: 2%;
-    background-image: linear-gradient(8.5deg, #1c3b33 , #1c3b33 50%, #b45e33 50%, #b45e33 );
-}
-.nav-container{
-    display: flex;
-    gap: $base-size;
-    list-style: none;
-    margin: 0 auto;
-    padding: 35px 0;
-    font-size: 40px;
+.home{
+  a:hover {
+    color: #1CFEBA;
+  }
+    text-decoration: none;
+  
 }
 
-h1 {
-
-    font-size: 5rem;
-
+.text{
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Cormorant Infant', serif;
+  color: #9D8DF1;
 }
-
-.container {
-    max-width: 58rem;
-    width: 100%;
-    padding-left: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.record_header {
-    display: flex;
+.text1{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: 'Alexandria', sans-serif;
 }
 
 
-.box-shadow {
-    box-shadow: 16px 16px 16px rgb(38, 38, 38);
+.font{
+    font-size: 1rem;
+    color: #121212;
+    text-align: center;
 }
+
+footer{
+  color: #121212;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+nav{
+    color: #121212;
+    text-align: center;
+}
+img{
+    background-color: #73d7e5;
+    box-shadow: 10px 10px;
+    padding: 2rem;
+}
+
+@media(max-width: 768px)
+    {
+        .grid-container{
+            grid-template-columns: auto;
+            gap: 25px;
+        }
+        .grid-container2{
+          grid-template-columns: auto;
+          gap: 15px;
+        }
+        .separate > picture:nth-child(2){
+          margin-bottom: 2rem;
+        }
+    }
 
 a{
-    color: rgb(0, 0, 0);
+     color: #51e1b6;
 }
+  a:hover, a:active, a:focus {
+    color: #9D8DF1;
+  }
+
+
+  .separate > picture:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+  
+
+
+//Product card:
+  .card {
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+   
+    text-align: center;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+    font-family: 'Noto Serif Khojki', serif;
+  }
+  .card > button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
 

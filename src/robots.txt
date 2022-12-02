@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gymnasiearbete-bra.netlify.app/sitemap.xml
+Sitemap: http://www.gymnasiearbete-bra.netlify.app/sitemap.xml
