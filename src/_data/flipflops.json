@@ -1,119 +1,119 @@
 [
     {
-        "name": "Warp",
+        "name": "Vision",
         "brand": "Stadium",
-        "colors": ["black", "printed"],
+        "colors": ["White/White"],
         "sized": [34, 35, 36, 37,38],
-        "price": 79.90,
-        "description": "Flip-flops, Stl. 31-38, Remmar i PVC-fritt gummi, Sula i PE-material",
-        "url": "https://www.stadium.se/barn/barnskor/sandaler/350683102/warp.j-sand-flip-flop.black-printed",
+        "price": 849,
+        "description": "Sneakers, Stl. 36-42, Ovandel i skinn och syntetskinn, Sammansvetsad mellan- och yttersula, Bekväm vaddering runt ankeln, Ventilerande perforeringar",
+        "url": "https://www.stadium.se/dam/damskor/sneakers/351947101/nike.w-court-vision-low.white-white",
         "images": [
             {
-                "url": "Warp.webp",
-                "alt": "Hawaii flipp flop"
+                "url": "Vision.webp",
+                "alt": "Vision sneakers"
             },
             {
-                "url": "first.webp",
+                "url": "upview3.webp",
                 "alt": "Sido view"
             }
         ]
 
     },
     {
-        "name": "SuperDry Orange",
+        "name": "Court-Platform",
         "brand": "Stadium",
-        "colors": ["Denver orange"],
+        "colors": ["Coreblack"],
         "sized": [34, 35, 36, 37,38],
-        "price": 149,
-        "description": "Flip-flops, Herrstorlekar, Remmar i gummi, Sula i EVA och gummi",
-        "url": "https://www.stadium.se/herr/herrskor/sandaler/364421102/superdry.m-code-essential-flip-flop.denver-orange",
+        "price": 399,
+        "description": "Sneakers, Stl. 36-42, Ovandel i syntetskinn, Yttersula i gummi",
+        "url": "https://www.stadium.se/dam/damskor/sneakers/369173101/adidas.w-court-platform.coreblack",
         "images": [
             {
-                "url": "SuperDry Orange.webp",
-                "alt": "Orange flipp flop"
+                "url": "Court-Platform.webp",
+                "alt": "Court-Platform Sneakers"
             },
             {
-                "url": "second.webp",
+                "url": "upview.webp",
                 "alt": "Sido view"
             }
         ]
         
     },
     {
-        "name": "SuperDry Black",
+        "name": "Waffle",
         "brand": "Stadium",
-        "colors": ["black"],
+        "colors": ["Sanddrift/Black"],
         "sized": [34, 35, 36, 37,38],
-        "price": 149,
-        "description": "Flip-flops, Herrstorlekar, Remmar i gummi, Sula i EVA och gummi",
-        "url": "https://www.stadium.se/herr/herrskor/sandaler/364421101/superdry.m-code-essential-flip-flop.black",
+        "price": 749,
+        "description": "Sneakers, Stl. 36-41, Mjuk ovandel i mocka och nylon, Mellansula i foam, Låg vadderad krage, Slitstark yttersula i gummi med bra grepp, Plös i foam, Ventilerande perforeringar på hälen",
+        "url": "https://www.stadium.se/dam/damskor/sneakers/361196106/nike.w-waffle-debut.sanddrift-black",
         "images": [
             {
-                "url": "SuperDry Black.webp",
+                "url": "Waffle.webp",
                 "alt": "Black flipp flop"
             },
             {
-                "url": "third.webp",
+                "url": "upview4.png",
                 "alt": "Sido view"
             }
         ]
         
     },
     {
-        "name": "Roxy Brown",
+        "name": "Court-Vision",
         "brand": "Stadium",
-        "colors": ["tan"],
+        "colors": ["Rose Whisper/White"],
         "sized": [34, 35, 36, 37,38],
-        "price": 299,
-        "description": "Flip-flops,  Damstorlekar, Remmar i syntetskinn, Innersula i EVA-material, Yttersula i gummi",
-        "url": "https://www.stadium.se/dam/damskor/sandaler/299592102/roxy.w-jyll-iii.tan",
+        "price": 499,
+        "description": "Sneakers, Stl. 36-42, Ovandel i skinn och syntetskinn, Sammansvetsad mellan- och yttersula, Bekväm vaddering runt ankeln, Ventilerande perforeringar",
+        "url": "https://www.stadium.se/dam/damskor/sneakers/351947104/nike.w-court-vision-low.rose-whisper-white",
         "images": [
             {
-                "url": "Roxy Brown.png",
+                "url": "Court-Vision.webp",
                 "alt": "Brown flipp flop"
             },
             {
-                "url": "fourth.webp",
+                "url": "upview1.webp",
                 "alt": "Sido view"
             }
         ]
         
     },
     {
-        "name": "Roxy",
+        "name": "Waffle-Debut",
         "brand": "Stadium",
-        "colors": ["black 1"],
+        "colors": ["Light Silver/Blue"],
         "sized": [34, 35, 36, 37,38],
-        "price": 129,
-        "description": "Flip-flops, Juniorstorlekar, Remmar i TPU-material, Yttersula och fotbädd i gummi",
-        "url": "https://www.stadium.se/barn/barnskor/sandaler/320730102/roxy.g-rg-sandy-iii.black-i",
+        "price": 749,
+        "description": "Sneakers, Stl. 36-41, Mjuk ovandel i mocka och nylon, Mellansula i foam, Låg vadderad krage, Slitstark yttersula i gummi med bra grepp, Plös i foam, Ventilerande perforeringar på hälen",
+        "url": "https://www.stadium.se/dam/damskor/sneakers/361196107/nike.w-waffle-debut.light-silver-blue",
         "images": [
             {
-                "url": "Roxy.png",
+                "url": "Waffle-Debut.webp",
                 "alt": "Roxy flipp flop"
             },
             {
-                "url": "fifth.webp",
+                "url": "upview5.webp",
                 "alt": "Sido view"
             }
         ]
         
     },
     {
-        "name": "Quicksilver",
+        "name": "Match",
         "brand": "Stadium",
-        "colors": ["black"],
+        "colors": ["Black/Black"],
         "sized": [34, 35, 36, 37,38],
-        "price": 199,
-        "description": "Flip-flops, Herrstorlekar, Ovandel i bomullscanvas, Anatomisk fotbädd med fotvalvsstöd, Mönstrad yttersula i EVA och gummi, Innerfoder i vattentålig polyester",
-        "url": "https://www.stadium.se/herr/herrskor/sandaler/363254106/quiksilver.m-molokai-layback.black#",
+        "price": 1149,
+        "description": "Sneakers, Damstorlekar, Ovandel i textil, Snörning med dragsko, Tjockare yttersula i gummi, Skorna är mindre i storleken, välj en halvstorlek större än du normalt använder.",
+        "url": "https://www.stadium.se/dam/damskor/sneakers/366030107/steve-madden.w-match.black-black",
         "images": [
             {
-                "url": "Quicksilver.png",
+                "url": "Match.webp",
                 "alt": "Black-Blue flipp flop"
             },
             {
-                "url": "sixth.webp",
+                "url": "upview2.webp",
                 "alt": "Sido view"
             }
         ]
