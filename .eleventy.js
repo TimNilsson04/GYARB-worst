@@ -19,6 +19,7 @@ async function imageShortcode(src, alt, sizes) {
 }
 
 module.exports = function (eleventyConfig) {
+  
   eleventyConfig.addPlugin(lazyImages, {})
   function lazyImages(eleventyConfig, userOptions = {}) {
     const { parse } = require('node-html-parser')
