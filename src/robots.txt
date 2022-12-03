@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sneakers.timpan.ninja/sitemap.xml
-Sitemap: http://www.sneakers.timpan.ninja/sitemap.xml
