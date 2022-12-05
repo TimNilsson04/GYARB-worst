@@ -10,7 +10,7 @@ layout: base.njk
       <script type="text/javascript">
     var alerted = localStorage.getItem('alerted') || '';
     if (alerted != 'yes') {
-     alert("Den här hemsidan sparar din data. \n Denna data används för Google Analytics");
+     alert("Den här hemsidan sparar din data. \nDenna data används för Google Analytics");
      localStorage.setItem('alerted','yes');
     }
 </script>
@@ -27,31 +27,105 @@ layout: base.njk
 
 </div>
 
-    <div class="grid-container">
+   
 
-        {% asyncAll product in flipflops %}
-           <!-- <pre>{{ product | dump(2) }}</pre> !-->
+           <!-- <pre>{{ product | dump(2) }}</pre> 
+           {% asyncAll product in flipflops %}
+    {% endall %}
+    !-->
 
 <div class="grid-container">
-    <div>
-        <h2 style="text-align:center">{{ product.name }}</h2>
-        <a href="/flipflops/{{ product.name | slug }}"> 
-            {% set imageUrl = "./src/img/" + product.name + "/" + product.images[0].url  %}
-            {% image imageUrl, product.images[0].alt %}
-            
-        </a>
-        <div class="card">
-          <p class="price">{{ product.price }}Kr</p>
-          <p class="text1">{{ product.description }}</p>
-        </div>
-    </div>
     
+    
+
+        <p>Vision</p> <p>Court-Platform</p> <p>Waffle</p> 
+        <center>
+        <a href="/flipflops/vision"><img src="/img/Vision/Vision.webp" alt=""></a> 
+    </center>
+    <center>
+        <a href="/flipflops/court-platform"><img src="/img/Court-Platform/Court-Platform.webp" alt=""></a> 
+    </center>
+    <center>
+         <a href="/flipflops/waffle"><img src="/img/Waffle/Waffle.webp" alt=""></a>
+        </center>
+    
+    <center>
+         <div class="center">
+         <div class="card">
+            <p class="price">849Kr </p>
+            <p class="text1">Sneakers, Stl. 36-42, Ovandel i skinn och syntetskinn, Sammansvetsad mellan- och yttersula, Bekväm vaddering runt ankeln, Ventilerande perforeringar</p>
+          </div>
+        </div>
+    </center>
+    <center>
+          <div class="center">
+          <div class="card">
+            <p class="price">399Kr </p>
+            <p class="text1">Sneakers, Stl. 36-42, Ovandel i syntetskinn, Yttersula i gummi</p>
+          </div>
+        </div>
+    </center>
+    <center>
+          <div class="center">
+          <div class="card">
+            <p class="price">749Kr </p>
+            <p class="text1">Sneakers, Stl. 36-41, Mjuk ovandel i mocka och nylon, Mellansula i foam, Låg vadderad krage, Slitstark yttersula i gummi med bra grepp, Plös i foam, Ventilerande perforeringar på hälen</p>
+          </div>
+        </div>
+    </center>
+    
+   
+          
+          
+       
+
+            <p>Court-Vision</p> <p>Waffle-Debut</p> <p>Match</p>
+    
+        <center>
+          <a href="/flipflops/court-vision"><img src="/img/Court-Vision/Court-Vision.webp" alt=""></a>  
+        </center>
+        <center> 
+       <a href="/flipflops/waffle-Debut"><img src="/img/Waffle-Debut/Waffle-Debut.webp" alt=""></a>
+    </center>
+    <center>
+       <a href="/flipflops/match"><img src="/img/Match/Match.webp" alt=""> </a> 
+    </center>
+
+
+<center>
+       <div class="center">
+       <div class="card">
+        <p class="price">499Kr </p>
+        <p class="text1">Sneakers, Stl. 36-42, Ovandel i skinn och syntetskinn, Sammansvetsad mellan- och yttersula, Bekväm vaddering runt ankeln, Ventilerande perforeringar</p>
+      </div>
     </div>
+</center>
+<center>
+      <div class="center">
+      <div class="card">
+        <p class="price">749Kr </p>
+        <p class="text1">Sneakers, Stl. 36-41, Mjuk ovandel i mocka och nylon, Mellansula i foam, Låg vadderad krage, Slitstark yttersula i gummi med bra grepp, Plös i foam, Ventilerande perforeringar på hälen</p>
+      </div>
+    </div>
+</center>
+<center>
+      <div class="center">
+      <div class="card">
+        <p class="price">1149Kr </p>
+        <p class="text1">Sneakers, Damstorlekar, Ovandel i textil, Snörning med dragsko, Tjockare yttersula i gummi, Skorna är mindre i storleken, välj en halvstorlek större än du normalt använder.</p>
+      </div>
+    </div>
+</center>
+
+        
+    
+    
+</div>
         </main>
 
 
-        {% endall %}
-    </div>
+       
+    
 
     <footer>
         <h3>Bättre GYARB Hemsida</h3>

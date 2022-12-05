@@ -52,6 +52,8 @@ hr{
     text-decoration: none;
   
 }
+.center{
+}
 
 .text{
   text-align: center;
@@ -86,25 +88,14 @@ img{
     background-color: #73d7e5;
     box-shadow: 10px 10px;
     padding: 2rem;
+   height: 225px;
+    width: 350px;
 }
 
-@media(max-width: 768px)
-    {
-        .grid-container{
-            grid-template-columns: auto;
-            gap: 25px;
-        }
-        .grid-container2{
-          grid-template-columns: auto;
-          gap: 15px;
-        }
-        .separate > picture:nth-child(2){
-          margin-bottom: 2rem;
-        }
-    }
 
 a{
      color: #51e1b6;
+     
 }
   a:hover, a:active, a:focus {
     color: #9D8DF1;
