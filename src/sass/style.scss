@@ -58,13 +58,11 @@ hr{
 .text{
   text-align: center;
   font-size: 1rem;
-  font-family: 'Cormorant Infant', serif;
   color: #9D8DF1;
 }
 .text1{
   padding-left: 2%;
   padding-right: 2%;
-  font-family: 'Alexandria', sans-serif;
 }
 
 
@@ -125,7 +123,6 @@ a{
   .price {
     color: grey;
     font-size: 22px;
-    font-family: 'Noto Serif Khojki', serif;
   }
   .card > button {
     border: none;
@@ -141,5 +138,12 @@ a{
   }
   .card button:hover {
     opacity: 0.7;
+  }
+
+  .invisible{
+   font-size: 1px;
+    opacity: 0;
+
+
   }
 
