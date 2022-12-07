@@ -31,7 +31,6 @@ body{
   h1{
     text-align: center;
     font-size: 2.5rem;
-    font-family: 'Nothing You Could Do', cursive;
     padding-top: 3%;
     background: -webkit-linear-gradient(8.5deg, #9D8DF1 , #9D8DF1  ,  #1CFEBA , #1CFEBA );
      -webkit-background-clip: text;
@@ -146,4 +145,16 @@ a{
 
 
   }
-
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+  .animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
