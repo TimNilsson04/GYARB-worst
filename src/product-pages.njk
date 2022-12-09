@@ -45,6 +45,14 @@ permalink: "sneakers/{{ product.name | slug }}/"
             </div>
         </div>
 
+        <style>
+            .text1{
+            padding-left: 2%;
+            padding-right: 2%;
+            font-family: 'Alexandria', sans-serif;
+          }
+          </style>
+
         <a href="{{ product.url }}">
             <div class="card">
                 <button>Original Site</button>
@@ -53,5 +61,27 @@ permalink: "sneakers/{{ product.name | slug }}/"
 
     </div>
 
+<style>
+    .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: auto;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 40px;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    align-items: center;
+    
+  }
+</style>
 
 </div>
+
+<style>
+    .price {
+  color: grey;
+  font-size: 22px;
+  font-family: 'Noto Serif Khojki', serif;
+    }
+  </style>

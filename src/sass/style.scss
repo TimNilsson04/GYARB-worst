@@ -4,29 +4,6 @@ body{
     background-color: #fff;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: auto;
-    justify-content: center;
-    column-gap: 30px;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
-    text-align: center;
-
-  }
-  .grid-container2 {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: auto;
-    justify-content: center;
-    column-gap: 80px;
-    row-gap: 40px;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
-    align-items: center;
-    
-  }
 
   h1{
     text-align: center;
@@ -52,16 +29,6 @@ hr{
   
 }
 .center{
-}
-
-.text{
-  text-align: center;
-  font-size: 1rem;
-  color: #9D8DF1;
-}
-.text1{
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 
@@ -119,10 +86,7 @@ a{
     text-align: center;
     
   }
-  .price {
-    color: grey;
-    font-size: 22px;
-  }
+  
   .card > button {
     border: none;
     outline: 0;
@@ -139,22 +103,4 @@ a{
     opacity: 0.7;
   }
 
-  .invisible{
-   font-size: 1px;
-    opacity: 0;
-
-
-  }
-  @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
-  
-  /* The element to apply the animation to */
-  .animation {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-  }
+ 
