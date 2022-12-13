@@ -41,6 +41,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     'src/robots.txt': 'robots.txt',
   });
+  eleventyConfig.addPassthroughCopy("src/flash.js");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/font");//
   eleventyConfig.addPassthroughCopy("src/img");
