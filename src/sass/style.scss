@@ -1,7 +1,7 @@
 @use "reset";
 
 body{
-    background-color: #fff;
+    background-color: white;
 }
 
 
@@ -34,18 +34,18 @@ hr{
 
 .font{
     font-size: 1rem;
-    color: #121212;
+    color: black;
     text-align: center;
 }
 
 footer{
-  color: #121212;
+  color: black;
     text-align: center;
     padding-bottom: 2rem;
 }
 
 nav{
-    color: #121212;
+    color: black;
     text-align: center;
 }
 img{
@@ -92,7 +92,7 @@ a{
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: black;
     text-align: center;
     cursor: pointer;
     width: 100%;
